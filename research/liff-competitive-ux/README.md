@@ -22,6 +22,7 @@ canonical: false
 | `runs/2026-09-18_glm-5.3/2026-09-18_glm-5.3_independent-research.md` | GLM 5.3 | RAW / contains known conflicts | several Thai competitor and LINE claims conflict with current checked evidence; use for hypothesis generation only until re-verified |
 | `runs/2026-09-18_opus/` | Claude / Opus 4.6 | RAW independent pass | comprehensive run already present in repo; requires source verification before synthesis |
 | `runs/2026-09-18_1554_gemini-3.8-flash/independent-research.md` | Gemini / 3.8 Flash | RAW / needs verification | implementation-oriented synthesis; several numeric, competitor and LINE-platform claims must be verified before use |
+| `runs/2026-09-18_1602_fable-5.1/independent-research.md` | Fable / 5.1 | RAW / source-rich | strongest current run on LINE Messaging UX/platform economics; official LINE claims are high-value, secondary Thai market statistics still need targeted verification |
 
 ## Important rule
 
