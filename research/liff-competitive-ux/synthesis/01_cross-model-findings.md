@@ -11,9 +11,10 @@ models_reviewed:
   - GLM 5.3
   - Claude / Opus 4.6
   - Gemini 3.8 Flash
-  - Fable 5.1
+  - Owner-provided LINE UX run (model unknown; originally mislabeled Fable 5.1)
 primary_evidence_checked: true
 owner_decision_required: true
+provenance_note: "The 16:02 owner-provided LINE UX run was originally mislabeled as Fable 5.1; model identity is unknown. Primary platform claims were independently re-verified."
 ---
 
 # 01 — Cross-Model Findings
@@ -36,9 +37,9 @@ owner_decision_required: true
 4. GLM 5.3 — implementation-oriented UX synthesis
 5. Claude Opus 4.6 — multi-file deep research package
 6. Gemini 3.8 Flash — fintech UX + product strategy report
-7. Fable 5.1 — LINE Messaging UX / platform architecture research
+7. Owner-provided LINE UX run — model unknown; originally mislabeled Fable 5.1
 
-Fable 5.1 has the strongest source quality for current LINE platform mechanics because it explicitly anchors most platform claims to official LINE Developers documentation.
+The owner-provided LINE UX run is source-rich on LINE platform mechanics, but its model identity is unknown. Its platform claims were independently checked against official LINE Developers documentation before being used in synthesis.
 
 ---
 
@@ -114,7 +115,7 @@ All serious runs converge on a hybrid architecture.
 - charts/comparison,
 - settings/security/subscription.
 
-### Fable 5.1 contribution
+### Primary LINE evidence contribution
 Official LINE capability research makes this more than a design preference:
 
 - webhook can receive common user message types directly,
@@ -136,7 +137,7 @@ Official LINE capability research makes this more than a design preference:
 ### Cross-model signal
 Several runs initially placed “upload slip” or “capture” in Rich Menu.
 
-Fable 5.1 challenges this with stronger platform reasoning:
+The source-rich LINE UX run raised this challenge, and the relevant platform mechanics were independently verified:
 
 - a user can already send an image/file/text directly,
 - requiring a pre-selection step adds unnecessary friction,
@@ -263,7 +264,7 @@ Examples:
 ## Finding G — Trust should be provenance-based, not a single “Verified” badge
 
 ### Cross-model signal
-Trust/provenance is present in ChatGPT, Opus, Gemini, GLM and Fable.
+Trust/provenance is present across ChatGPT, Opus, Gemini, GLM and the owner-provided LINE UX run.
 
 ### Best synthesis
 Trust is multidimensional:
@@ -308,7 +309,7 @@ over:
 ## Finding H — Deep-linked Chat → LIFF continuation is better than generic Home routing
 
 ### Cross-model signal
-Strong agreement across ChatGPT, Gemini 3.8, Opus and Fable.
+Strong agreement across ChatGPT, Gemini 3.8, Opus and the owner-provided LINE UX run.
 
 ### Pattern
 If the user receives:
@@ -493,7 +494,7 @@ and “Home” is secondary.
 
 ## 4.2 Review location: Flex vs LIFF
 
-Fable suggests Flex carousel can act as a lightweight financial inbox.
+One owner-provided LINE UX run suggests Flex carousel can act as a lightweight financial inbox.
 
 Other runs put Review Inbox primarily in LIFF.
 
@@ -533,7 +534,7 @@ Test:
 
 ## 4.5 Rich Menu architecture
 
-Fable proposes three viable IA approaches:
+The owner-provided LINE UX run proposes three viable IA approaches:
 - Utility-first,
 - Insight-first,
 - Companion/tab-switch.
