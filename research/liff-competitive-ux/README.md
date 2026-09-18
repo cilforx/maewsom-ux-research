@@ -19,6 +19,7 @@ canonical: false
 | `runs/2026-09-18_chatgpt/independent-research.md` | ChatGPT / GPT-5.6 Sol | RAW independent pass | ทำโดยไม่ถือ legacy conclusions เป็น product truth |
 | `runs/2026-09-18_gemini/2026-09-18_gemini_independent-research.md` | Gemini | RAW independent pass | indexed แล้ว; รอ cross-model synthesis |
 | `runs/2026-09-18_glm-flash/2026-09-18_glm-flash_independent-research.md` | GLM Flash | RAW / needs source verification | citation tokens `turn0search*` are session-local and not portable; verify numeric/feature claims before synthesis |
+| `runs/2026-09-18_glm-5.3/2026-09-18_glm-5.3_independent-research.md` | GLM 5.3 | RAW / contains known conflicts | several Thai competitor and LINE claims conflict with current checked evidence; use for hypothesis generation only until re-verified |
 
 ## Important rule
 
@@ -36,7 +37,7 @@ independent runs
 
 ## Known disputes already identified
 
-Legacy files 01–06 มีข้อมูล competitor ไทยบางจุดที่ต้องตรวจใหม่ เช่น Nabtang, รับจ่ายจด และ BooJot ถูกอธิบายเป็น manual-heavy ในบางส่วน ขณะที่ current product listings/evidence แสดง OCR, voice หรือ automation capabilities.
+Legacy files 01–06 และ GLM 5.3 มีข้อมูล competitor ไทยบางจุดที่ต้องตรวจใหม่ เช่น MeowJot, Nabtang, รับจ่ายจด และ BooJot ถูกอธิบายเป็น manual-heavy/limited automation ในบางส่วน ขณะที่ current product listings/evidence แสดง OCR, voice, statement หรือ automation capabilities.
 
 Resolution rule:
 
