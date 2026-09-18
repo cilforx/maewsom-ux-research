@@ -152,6 +152,30 @@ canonical: false
 
 ถ้าไม่ทราบรุ่น model ให้ใช้ `model: unknown` และห้ามเดา.
 
+## Collision / overwrite prevention
+
+Every independent research execution must have a unique immutable path.
+
+Preferred format:
+
+```text
+research/<topic>/runs/YYYY-MM-DD_HHMM_<model-slug>/independent-research.md
+```
+
+Do not reuse a directory simply because the provider is the same. For example, two Gemini models/runs must not both write to `2026-09-18_gemini/`.
+
+Examples:
+
+```text
+2026-09-18_1510_gemini-pro/
+2026-09-18_1530_gemini-2-modern/
+2026-09-18_1545_gemini-flash/
+```
+
+A rerun of the same model also receives a new timestamped directory.
+
+Research runs are immutable. Do not overwrite or "fix" historical model output in place; resolve errors in synthesis or create a new run.
+
 ## Naming convention
 
 ภายในแต่ละ topic:
