@@ -18,6 +18,7 @@ canonical: false
 | `archive/liff-competitive-ux/01–06` | prior model/research run | RAW / needs cross-check | ย้ายแบบ rename-only; มีบาง competitor claims ที่ขัดกับ current primary sources |
 | `runs/2026-09-18_chatgpt/independent-research.md` | ChatGPT / GPT-5.6 Sol | RAW independent pass | ทำโดยไม่ถือ legacy conclusions เป็น product truth |
 | `runs/2026-09-18_gemini/2026-09-18_gemini_independent-research.md` | Gemini | RAW independent pass | indexed แล้ว; รอ cross-model synthesis |
+| `runs/2026-09-18_glm-flash/2026-09-18_glm-flash_independent-research.md` | GLM Flash | RAW / needs source verification | citation tokens `turn0search*` are session-local and not portable; verify numeric/feature claims before synthesis |
 
 ## Important rule
 
