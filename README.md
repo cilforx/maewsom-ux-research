@@ -27,7 +27,7 @@ maewsom-ux-research/
 │   │   │   ├── 2026-09-18_glm-5.3/
 │   │   │   ├── 2026-09-18_opus/
 │   │   │   ├── 2026-09-18_1554_gemini-3.8-flash/
-│   │   │   ├── 2026-09-18_1602_fable-5.1/
+│   │   │   ├── 2026-09-18_1602_fable-5.1/  # historical MISLABEL; see PROVENANCE_CORRECTION.md
 │   │   │   └── 2026-09-18_<other-model>/
 │   │   ├── synthesis/
 │   │   └── evidence/
@@ -254,7 +254,7 @@ Requirement Candidate ยังไม่ใช่ requirement จริงจน
 
 | Topic | Date | Models | Status | Synthesis | Product Impact |
 |---|---|---|---|---|---|
-| LIFF Competitive UX | 2026-09-18 | ChatGPT, Gemini, GLM Flash, GLM 5.3, Claude Opus 4.6, Gemini 3.8 Flash, Fable 5.1 | **SYNTHESIZED / OWNER-ACCEPTED** | **Complete — 01/02/03** | OD49 in `cilforx/maewsom`; LINE↔LIFF architecture/trust/reconciliation |
+| LIFF Competitive UX | 2026-09-18 | ChatGPT, Gemini, GLM Flash, GLM 5.3, Claude Opus 4.6, Gemini 3.8 Flash, owner-provided run (model unknown; originally mislabeled Fable) | **SYNTHESIZED / OWNER-ACCEPTED** | **Complete — 01/02/03** | OD49 in `cilforx/maewsom`; LINE↔LIFF architecture/trust/reconciliation |
 | LINE Rich Menu UX | existing | multiple | To index | Pending | LINE entry/navigation |
 | Persona & Relationship | existing | multiple | To index | Partial | Character system |
 | Monetization / Premium | existing | multiple | To index | Partial | Subscription |
