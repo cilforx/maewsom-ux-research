@@ -94,18 +94,18 @@ Scope:
 - AI / conversational finance
 - LINE MINI App / LIFF ecosystem
 
-### Legacy root package
+### Archived legacy package
 
-ไฟล์ 01–06 ที่ root เป็น research package เดิมและควรถือเป็น **RAW / needs cross-check** จนกว่าจะมี synthesis:
+ไฟล์ legacy 01–06 ถูกย้ายแบบ rename-only ไปที่ `archive/liff-competitive-ux/` โดยไม่มีการแก้เนื้อหา และควรถือเป็น **RAW / needs cross-check** จนกว่าจะมี synthesis:
 
 | File | Content | Status |
 |---|---|---|
-| `01_executive_summary.md` | Market direction, competitive maps, white space | RAW |
-| `02_research_matrix.md` | 50-product comparison matrix | RAW |
-| `03_deep_dives.md` | Deep dives and transaction lifecycles | RAW |
-| `04_ux_patterns_and_pain_points.md` | UX patterns and competitor pain points | RAW |
-| `05_line_and_ai_ecosystem.md` | Chat vs LIFF, LINE ecosystem, AI trust | RAW |
-| `06_maewsom_design_strategy.md` | Proposed design principles and LIFF IA | RAW / hypothesis |
+| `archive/liff-competitive-ux/01_executive_summary.md` | Market direction, competitive maps, white space | RAW |
+| `archive/liff-competitive-ux/02_research_matrix.md` | 50-product comparison matrix | RAW |
+| `archive/liff-competitive-ux/03_deep_dives.md` | Deep dives and transaction lifecycles | RAW |
+| `archive/liff-competitive-ux/04_ux_patterns_and_pain_points.md` | UX patterns and competitor pain points | RAW |
+| `archive/liff-competitive-ux/05_line_and_ai_ecosystem.md` | Chat vs LIFF, LINE ecosystem, AI trust | RAW |
+| `archive/liff-competitive-ux/06_maewsom_design_strategy.md` | Proposed design principles and LIFF IA | RAW / hypothesis |
 
 **Do not treat 01–06 as canonical product requirements.**
 
