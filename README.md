@@ -254,7 +254,7 @@ Requirement Candidate ยังไม่ใช่ requirement จริงจน
 
 | Topic | Date | Models | Status | Synthesis | Product Impact |
 |---|---|---|---|---|---|
-| LIFF Competitive UX | 2026-09-18 | ChatGPT, Gemini, GLM Flash, GLM 5.3, Claude Opus 4.6, Gemini 3.8 Flash, Fable 5.1 | Active | Pending | LIFF architecture |
+| LIFF Competitive UX | 2026-09-18 | ChatGPT, Gemini, GLM Flash, GLM 5.3, Claude Opus 4.6, Gemini 3.8 Flash, Fable 5.1 | **SYNTHESIZED / OWNER-ACCEPTED** | **Complete — 01/02/03** | OD49 in `cilforx/maewsom`; LINE↔LIFF architecture/trust/reconciliation |
 | LINE Rich Menu UX | existing | multiple | To index | Pending | LINE entry/navigation |
 | Persona & Relationship | existing | multiple | To index | Partial | Character system |
 | Monetization / Premium | existing | multiple | To index | Partial | Subscription |
@@ -304,21 +304,21 @@ AI agent ที่เข้ามาใช้ repository นี้ต้อง:
 ## Current priority
 
 ```text
-Independent model research
+Independent model research ✅
         ↓
-Cross-check disputed claims
+Cross-check disputed claims ✅
         ↓
-Cross-model synthesis
+Cross-model synthesis ✅
         ↓
-LINE / LIFF responsibility model
+Owner Direction — OD49 ✅
         ↓
-Financial Trust Model
+Core LINE↔LIFF user-flow contract ← NEXT
         ↓
-Owner Direction
+Low-fidelity interaction prototype
         ↓
-LIFF information architecture
+User testing
         ↓
-Wireframe
+Final LIFF navigation / visual design
 ```
 
 **Do not start visual design solely from one model's research output.**
