@@ -27,6 +27,7 @@ maewsom-ux-research/
 │   │   │   ├── 2026-09-18_glm-5.3/
 │   │   │   ├── 2026-09-18_opus/
 │   │   │   ├── 2026-09-18_1554_gemini-3.8-flash/
+│   │   │   ├── 2026-09-18_1602_fable-5.1/
 │   │   │   └── 2026-09-18_<other-model>/
 │   │   ├── synthesis/
 │   │   └── evidence/
@@ -253,7 +254,7 @@ Requirement Candidate ยังไม่ใช่ requirement จริงจน
 
 | Topic | Date | Models | Status | Synthesis | Product Impact |
 |---|---|---|---|---|---|
-| LIFF Competitive UX | 2026-09-18 | ChatGPT, Gemini, GLM Flash, GLM 5.3, Claude Opus 4.6, Gemini 3.8 Flash | Active | Pending | LIFF architecture |
+| LIFF Competitive UX | 2026-09-18 | ChatGPT, Gemini, GLM Flash, GLM 5.3, Claude Opus 4.6, Gemini 3.8 Flash, Fable 5.1 | Active | Pending | LIFF architecture |
 | LINE Rich Menu UX | existing | multiple | To index | Pending | LINE entry/navigation |
 | Persona & Relationship | existing | multiple | To index | Partial | Character system |
 | Monetization / Premium | existing | multiple | To index | Partial | Subscription |
