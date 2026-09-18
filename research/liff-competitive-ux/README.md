@@ -20,6 +20,8 @@ canonical: false
 | `runs/2026-09-18_gemini/2026-09-18_gemini_independent-research.md` | Gemini | RAW independent pass | indexed แล้ว; รอ cross-model synthesis |
 | `runs/2026-09-18_glm-flash/2026-09-18_glm-flash_independent-research.md` | GLM Flash | RAW / needs source verification | citation tokens `turn0search*` are session-local and not portable; verify numeric/feature claims before synthesis |
 | `runs/2026-09-18_glm-5.3/2026-09-18_glm-5.3_independent-research.md` | GLM 5.3 | RAW / contains known conflicts | several Thai competitor and LINE claims conflict with current checked evidence; use for hypothesis generation only until re-verified |
+| `runs/2026-09-18_opus/` | Claude / Opus 4.6 | RAW independent pass | comprehensive run already present in repo; requires source verification before synthesis |
+| `runs/2026-09-18_1554_gemini-3.8-flash/independent-research.md` | Gemini / 3.8 Flash | RAW / needs verification | implementation-oriented synthesis; several numeric, competitor and LINE-platform claims must be verified before use |
 
 ## Important rule
 
