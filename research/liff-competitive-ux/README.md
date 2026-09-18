@@ -15,9 +15,9 @@ canonical: false
 
 | Run | Researcher | Status | Notes |
 |---|---|---|---|
-| Legacy package `/01–06` | prior model/research run | RAW / needs cross-check | มีบาง competitor claims ที่ขัดกับ current primary sources |
+| `archive/liff-competitive-ux/01–06` | prior model/research run | RAW / needs cross-check | ย้ายแบบ rename-only; มีบาง competitor claims ที่ขัดกับ current primary sources |
 | `runs/2026-09-18_chatgpt/independent-research.md` | ChatGPT / GPT-5.6 Sol | RAW independent pass | ทำโดยไม่ถือ legacy conclusions เป็น product truth |
-| Gemini run | Gemini | Pending indexing | ควรเก็บแยก run แล้วค่อย synthesis |
+| `runs/2026-09-18_gemini/2026-09-18_gemini_independent-research.md` | Gemini | RAW independent pass | indexed แล้ว; รอ cross-model synthesis |
 
 ## Important rule
 
