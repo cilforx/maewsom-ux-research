@@ -50,3 +50,34 @@ Resolution rule:
 - `synthesis/design-implications.md`
 
 Do not start final LIFF visual design until synthesis is complete.
+
+
+## Run collision prevention
+
+Independent runs are **immutable** and must never reuse another run's directory or filename.
+
+Use:
+
+```text
+runs/YYYY-MM-DD_HHMM_<model-slug>/
+└── independent-research.md
+```
+
+Examples:
+
+```text
+runs/2026-09-18_1510_gemini-pro/
+runs/2026-09-18_1530_gemini-2-modern/
+runs/2026-09-18_1545_gemini-flash/
+```
+
+Rules:
+
+1. Never write a second model run into an existing run directory.
+2. Never update another model's `independent-research.md`.
+3. If the exact model name is unknown, use a unique owner-provided label plus timestamp.
+4. A model rerun must create a new timestamped directory even if it is the same model.
+5. Historical run files are append-only/immutable; corrections belong in synthesis or a new run.
+6. Before creating a run, check whether the target path already exists. If it exists, choose a new timestamp/slug.
+
+> **One execution = one unique path. No overwrite.**
