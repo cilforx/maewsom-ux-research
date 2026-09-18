@@ -2,7 +2,7 @@
 
 ---
 topic: liff-competitive-ux
-status: active
+status: synthesized
 started: 2026-09-18
 canonical: false
 ---
@@ -46,13 +46,29 @@ Resolution rule:
 
 > Evidence wins, not model majority.
 
-## Next outputs
+## Synthesis — Complete
 
-- `synthesis/cross-model-findings.md`
-- `synthesis/disputed-claims.md`
-- `synthesis/design-implications.md`
+The multi-model research cycle has been cross-checked and synthesized into:
 
-Do not start final LIFF visual design until synthesis is complete.
+- `synthesis/01_cross-model-findings.md`
+- `synthesis/02_disputed-claims.md`
+- `synthesis/03_design-implications.md`
+
+Product authority has been promoted to the main repository as:
+
+- `cilforx/maewsom/docs/review/mochi/49-owner-direction-line-liff-trust-and-reconciliation-boundary.md`
+
+Status:
+
+```text
+research complete
+→ disputed claims checked
+→ synthesis complete
+→ Owner Direction accepted (OD49)
+→ core flow contract NEXT
+```
+
+Do not reopen resolved research claims from individual RAW runs unless new primary evidence materially changes them.
 
 
 ## Run collision prevention
